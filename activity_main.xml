@@ -6,24 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@id/ratingBar"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@id/ratingBar"
-        android:layout_marginBottom="161dp"
-        android:layout_marginEnd="63dp"
-        android:layout_marginRight="63dp"
-        android:text="Button"/>
-
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp"/>
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="204dp" />
 
 </RelativeLayout>
